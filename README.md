@@ -4,6 +4,8 @@
 - Java 11
 - H2 DB
 - Spring Boot, Spring Data JPA
+- JUnit
+- Swagger
   
  **Running instructions**
 
@@ -24,6 +26,22 @@ Swagger url: http://localhost:4591/swagger-ui/index.html#/
 http://localhost:4591/swagger-ui/index.html#/balance-controller/getPlayerBalance
 
 playerId = 10001
+
+Response body
+
+{
+  "playerId": 10001,
+  "balance": [
+    {
+      "amount": 100,
+      "currencyType": "DOLLAR"
+    },
+    {
+      "amount": 120,
+      "currencyType": "EURO"
+    }
+  ]
+}
 
 **2) Withdrawal per player**
 
