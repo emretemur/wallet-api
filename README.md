@@ -11,7 +11,7 @@
 
 Run the following commands in the root folder of the application
 
-./mvnw instal
+./mvnw install
 
 ./mvnw spring-boot:run
 
