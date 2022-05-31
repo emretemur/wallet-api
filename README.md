@@ -19,6 +19,12 @@ Run the following commands in the root folder of the application
 When the application is up and running, the balance will be automatically added for the playerId 10001.
 You can use this playerId while calling credit, withdraw, balance, transaction history services.
 
+There is information about the players in the data.sql file under the resources folder. A new player can be created by editing the script in the file. To do this, simply restarting the application is sufficient.
+Players can have balances in different currencies. (Dollar, Euro, Pound).
+
+There are currently two players in the system 10001 and 20002.
+Player 10001 has Dollar and Euro balance. Player 20002 has only Euro balance.
+
 Swagger url: http://localhost:4591/swagger-ui/index.html#/
 
 **1) Current balance per player**
